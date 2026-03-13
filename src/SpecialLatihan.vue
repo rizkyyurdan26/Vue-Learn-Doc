@@ -1,9 +1,11 @@
 <script setup>
-import ParentItem from './specialLatihan/1ParentItem.vue';
+import CrudParent from './specialLatihan/CrudParent.vue';
+
 
 
 </script>
 
 <template>
-    <ParentItem/>
+ <CrudParent/>
+     
 </template>
