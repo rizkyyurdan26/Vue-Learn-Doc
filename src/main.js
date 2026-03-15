@@ -8,10 +8,12 @@ import SpecialEmit from "./SpecialEmit.vue";
 import App from "./App.vue";
 // import router from "./router";
 // import dinamicRouter from "./dinamicRouter";
-import { router } from "./crudrouter";
+// import { router } from "./crudrouter";
+import SpecialFetch from "./SpecialFetch.vue";
+import router from "./spesialFectch.vue/routerapi/routerApi";
 
 // createApp(Basic).mount('#app')
 // createApp(App).mount("#app");
 
 // HUBUNGKAN ROUTER APP
-createApp(App).use(router).mount('#app')
+createApp(SpecialFetch).use(router).mount('#app')
