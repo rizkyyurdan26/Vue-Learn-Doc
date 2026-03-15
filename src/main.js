@@ -5,6 +5,13 @@ import Component from "./Component.vue";
 import SpecialProps from "./SpecialProps.vue";
 import SpecialLatihan from "./SpecialLatihan.vue";
 import SpecialEmit from "./SpecialEmit.vue";
+import App from "./App.vue";
+// import router from "./router";
+// import dinamicRouter from "./dinamicRouter";
+import { router } from "./crudrouter";
 
 // createApp(Basic).mount('#app')
-createApp(SpecialEmit).mount("#app");
+// createApp(App).mount("#app");
+
+// HUBUNGKAN ROUTER APP
+createApp(App).use(router).mount('#app')
